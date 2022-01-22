@@ -11,8 +11,8 @@
 ## How To Set Up Minimal CM11 Sources
 
 ```bash
-repo init --depth=1 -u git://github.com/CyanogenMod/android.git -b cm-11.0
-git clone --branch cm-11.0 --single-branch git://github.com/AndroidGoya/android_platform_manifest.git .repo/local_manifests && rm -rf .repo/local_manifests/.git/
+repo init --depth=1 -u https://github.com/CyanogenMod/android.git -b cm-11.0
+git clone --branch cm-11.0 --single-branch https://github.com/AndroidGoya/android_platform_manifest.git .repo/local_manifests && rm -rf .repo/local_manifests/.git/
 repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
 ```
 
