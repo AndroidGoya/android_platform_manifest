@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <default fetch="https://github.com/AndroidGoya/"
+           revision="cm-11.0" />
+  
+  <project path="device/samsung/goya" name="android_device_samsung_goya"/>
+  <project path="kernel/samsung/goya" name="android_kernel_samsung_goya"/>
+  <project path="vendor/samsung/goya" name="android_vendor_samsung_goya"/>
+</manifest>
